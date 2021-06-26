@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+  <title>To Do List</title>
+  <style>
+    html {
+      margin: 0 auto;
+    }
+
+    body {
+      background: url('https://images.unsplash.com/photo-1547756536-cde3673fa2e5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aGFycnklMjBwb3R0ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 50%;
+      margin: 0 auto;
+      font-family: 'New Tegomin', serif;
+    }
+
+    h1 {
+      padding-left: 270px;
+    }
+
+    .container {
+      width: 360px;
+      padding-left: 160px;
+    }
+
+    #inputField {
+      width: 300px;
+      height: 46px;
+      border-width: 0;
+      border: 1px solid black;
+      outline: none;
+      font-size: 25px;
+      vertical-align: middle;
+      font-family: 'New Tegomin', serif;
+      background: transparent;
+    }
+
+    ::placeholder {
+      color: black;
+      opacity: 7;
+    }
+
+    #addToDo {
+      height: 50px;
+      width: 50px;
+
+      vertical-align: middle;
+      font-size: 30px;
+      background: transparent;
+    }
+
+    .todos {
+      margin: 0px;
+    }
+
+    .margin {
+
+
+
+      padding-bottom: 400px;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="margin">
+    <h1>To Do List</h1>
+    <div class="container">
+      <input id="inputField" type="text" placeholder="Add a ToDo"><button id="addToDo">+</button>
+      <div class="todos" id="toDoContainer">
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </div>
+</body>
+
+</html>
