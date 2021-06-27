@@ -1,8 +1,10 @@
   
 html, body {
-    width: 50%;
+ width: 50%;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: "Times New Roman", Times, serif;
+	text-align:center;
+	color:#4a4948;
 }
 
 .container {
@@ -10,21 +12,29 @@ html, body {
 }
 
 #inputField {
-    width: 300px;
-    height: 46px;
-    border-width: 0;
-    border: 1px solid black;
-    outline: none;
-    font-size: 25px;
-    vertical-align: middle;
+   width: 250px;
+  padding: 12px 20px;
+  margin: 50px 20px 80px;
+  display: inline-block;
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.cont{
+width: 360px;
+background-image: url("https://store-images.s-microsoft.com/image/apps.62416.14371825410523561.5c9469d8-ac8d-4963-98c3-9fc24e43bdbe.4de4a4a6-4bd1-486e-808e-9fc129de815d?mode=scale&q=90&h=1080&w=1920");
 }
 
 #addToDo {
-    height: 50px;
+   height: 100%;
     width: 50px;
-    border: 1px solid black;
-    vertical-align: middle;
-    font-size: 30px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .paragraph-styling {
